@@ -43,9 +43,11 @@ jobs:
         working-directory: mobile/android/app
         run: echo '${{ secrets.GOOGLE_SERVICES_JSON }}' > google-services.json
 
-      - name: APK derle
-        working-directory: mobile/android
-        run: cd android && ./gradlew assembleRelease
+      -- name: APK derle
+      working-directory: android
+      run: |
+        chmod +x gradlew
+        ./gradlew assembleRelease
         env:
           ANDROID_HOME: ${{ env.ANDROID_HOME }}
 
