@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "774793087378",
+    "project_id": "nakliyebot",
+    "storage_bucket": "nakliyebot.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774793087378:android:8979688e7e8607874d594b",
+        "android_client_info": {
+          "package_name": "com.nakliyebot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnGIV5dSD0m8aZJf_IgbnnNnHcks81GuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
