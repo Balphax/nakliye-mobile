@@ -1,7 +1,7 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'https://YOUR_RENDER_URL'; // Render URL'ini buraya yaz
+const API_URL = 'https://nakliye-bot-v3.onrender.com'; // Render URL'ini buraya yaz
 
 const api = axios.create({
   baseURL: API_URL,
